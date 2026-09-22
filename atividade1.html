@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+</head>
+<body>
+    <p id="Texto revelado pelo botão REVELAR!" style="display: none;">
+        Este é o texto que será revelado!
+    </p>
+    <button id="botaoRevelador">REVELAR!</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#botaoRevelador").click(function() {
+                $("#Texto revelado pelo botão REVELAR!").fadeIn();
+            });
+        });
+    </script>
+</body>
+</html>
