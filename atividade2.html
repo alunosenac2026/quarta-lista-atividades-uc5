@@ -4,28 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 2</title>
-    <script src="https://code.jquery.com/jquery-40.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
     <style> 
         #retangulo{
-            width: 200px;
-            height: 100px;
+            width: 100px;
+            height: 50px;
             background-color: rgb(225, 0, 255);
             position: relative;
         }
     </style>
 </head>
 <body>
-    <div id="retangulo"></div>
-    <br>
-    <button id="btnDeslizar">DESLIZAR</button>
 
-    <script>
-        $(document).ready(function(){
-            $("#btnDeslizar").click(function(){
-                $("#retangulo").animate({left: '+=200px'}, 1000);
-            });
+<div id="retangulo"></div>
+<br>
+<button id="btnDeslizar">DESLIZAR</button>
+
+<script>
+    $(document).ready(function(){
+        $("#btnDeslizar").click(function(){
+            $("#retangulo").animate({left: '+=200px'}, 1000);
         });
-    </script>
+    });
+</script>
 
 </body>
 </html>
