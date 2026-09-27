@@ -21,9 +21,16 @@ $(document).ready(function () {
 
     $("#btnDeslizar").click(function () {
 
+        let area = $(".area-deslizante").width();
+
+        let larguraRetangulo = $("#retangulo").outerWidth();
+
+        let novaPosicao = area - larguraRetangulo;
+
+
         $("#retangulo").animate({
 
-            left: "calc(100% - 100px)"
+            left: novaPosicao
 
         }, 1000);
 
@@ -57,11 +64,13 @@ $(document).ready(function () {
 
         $(this).animate({
 
-            width: "120%",
+            width: "110%",
 
-            marginLeft: "-10%",
+            height: "242px",
 
-            marginTop: "-10%"
+            marginLeft: "-5%",
+
+            marginTop: "-11px"
 
         }, 300);
 
@@ -73,6 +82,8 @@ $(document).ready(function () {
         $(this).animate({
 
             width: "100%",
+
+            height: "220px",
 
             marginLeft: "0",
 
