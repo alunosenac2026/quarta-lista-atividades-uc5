@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Quarta lista de atividades da UC5 - Front-End em Projetos Web."
+    >
+
+    <title>jQuery Lab | UC5</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Biblioteca jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- ==========================================
+         CABEÇALHO
+    =========================================== -->
+
+    <header>
+
+        <div class="container">
+
+            <h1>jQuery Lab</h1>
+
+            <p>
+                Interações, efeitos e animações com jQuery
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         CONTEÚDO PRINCIPAL
+    =========================================== -->
+
+    <main class="container">
+
+
+        <!-- ======================================
+             ATIVIDADE 1
+        ======================================= -->
+
+        <section class="atividade">
+
+            <span class="numero">
+                ATIVIDADE 01
+            </span>
+
+            <h2>
+                Botão Revelador
+            </h2>
+
+            <p>
+                Clique no botão para revelar o texto
+                utilizando o efeito <strong>fadeIn()</strong>.
+            </p>
+
+            <button id="btnRevelar">
+                Revelar
+            </button>
+
+            <p id="textoRevelado">
+
+                🎉 Parabéns! Você revelou o conteúdo
+                utilizando jQuery.
+
+            </p>
+
+        </section>
+
+
+        <!-- ======================================
+             ATIVIDADE 2
+        ======================================= -->
+
+        <section class="atividade">
+
+            <span class="numero">
+                ATIVIDADE 02
+            </span>
+
+            <h2>
+                Animação de Deslize
+            </h2>
+
+            <p>
+                Clique no botão para mover o retângulo
+                horizontalmente pela página.
+            </p>
+
+            <div class="area-deslizante">
+
+                <div id="retangulo"></div>
+
+            </div>
+
+            <button id="btnDeslizar">
+                Deslizar
+            </button>
+
+        </section>
+
+
+        <!-- ======================================
+             ATIVIDADE 3
+        ======================================= -->
+
+        <section class="atividade">
+
+            <span class="numero">
+                ATIVIDADE 03
+            </span>
+
+            <h2>
+                Ajuste de Tamanho
+            </h2>
+
+            <p>
+                Clique no botão para aumentar a imagem
+                em 50% utilizando o método
+                <strong>animate()</strong>.
+            </p>
+
+            <div class="imagem-aumentar-container">
+
+                <img
+                    id="imagemAumentar"
+                    src="imagens/atividade_3.jpeg"
+                    alt="Ciclista praticando mountain bike em uma trilha"
+                >
+
+            </div>
+
+            <button id="btnAumentar">
+                Aumentar
+            </button>
+
+        </section>
+
+
+        <!-- ======================================
+             ATIVIDADE 4
+        ======================================= -->
+
+        <section class="atividade">
+
+            <span class="numero">
+                ATIVIDADE 04
+            </span>
+
+            <h2>
+                Animação de Imagens
+            </h2>
+
+            <p>
+                Passe o mouse sobre uma imagem para
+                aplicar o efeito de ampliação.
+            </p>
+
+            <div class="galeria">
+
+
+                <div class="imagem-zoom">
+
+                    <img
+                        src="imagens/atividade_4_img_1.jpeg"
+                        alt="Carro esportivo preto"
+                    >
+
+                </div>
+
+
+                <div class="imagem-zoom">
+
+                    <img
+                        src="imagens/atividade_4_img_2.jpeg"
+                        alt="Carro esportivo preto visto de lado"
+                    >
+
+                </div>
+
+
+                <div class="imagem-zoom">
+
+                    <img
+                        src="imagens/atividade_4_img_3.jpeg"
+                        alt="Carro esportivo"
+                    >
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ======================================
+             ATIVIDADE 5
+        ======================================= -->
+
+        <section class="atividade">
+
+            <span class="numero">
+                ATIVIDADE 05
+            </span>
+
+            <h2>
+                Alteração de Tema
+            </h2>
+
+            <p>
+                Utilize os botões para alternar entre
+                o tema claro e o tema escuro.
+            </p>
+
+            <div class="botoes-tema">
+
+                <button id="btnClaro">
+                    Tema Claro
+                </button>
+
+                <button id="btnEscuro">
+                    Tema Escuro
+                </button>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- ==========================================
+         RODAPÉ
+    =========================================== -->
+
+    <footer>
+
+        <p>
+            UC5 - Front-End em Projetos Web
+        </p>
+
+        <p>
+            Quarta Lista de Atividades
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
