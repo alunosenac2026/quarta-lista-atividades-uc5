@@ -71,7 +71,7 @@ header p {
 
 
 /* ==========================================
-   CONTEÚDO PRINCIPAL
+   CONTEÚDO
 ========================================== */
 
 main {
@@ -82,7 +82,7 @@ main {
 
 
 /* ==========================================
-   CARDS DAS ATIVIDADES
+   CARDS
 ========================================== */
 
 .atividade {
@@ -175,7 +175,6 @@ button:hover {
 
 /* ==========================================
    ATIVIDADE 1
-   BOTÃO REVELADOR
 ========================================== */
 
 #textoRevelado {
@@ -242,11 +241,11 @@ button:hover {
 
 .imagem-aumentar-container {
 
-    width: 400px;
-
-    max-width: 100%;
+    width: 100%;
 
     margin-bottom: 25px;
+
+    overflow: visible;
 }
 
 
@@ -255,8 +254,6 @@ button:hover {
     display: block;
 
     width: 400px;
-
-    max-width: 100%;
 
     height: auto;
 
@@ -288,9 +285,13 @@ button:hover {
 
     width: 33.333%;
 
+    height: 220px;
+
     overflow: hidden;
 
     border-radius: 10px;
+
+    position: relative;
 }
 
 
@@ -303,13 +304,14 @@ button:hover {
     height: 220px;
 
     object-fit: cover;
+
+    position: relative;
 }
 
 
 
 /* ==========================================
    ATIVIDADE 5
-   ALTERAÇÃO DE TEMA
 ========================================== */
 
 .botoes-tema {
@@ -374,7 +376,6 @@ body.tema-escuro #textoRevelado {
 ========================================== */
 
 @media (max-width: 700px) {
-
 
     header h1 {
 
